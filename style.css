@@ -179,7 +179,7 @@
   background-position: bottom;
 }
 #index main #restaurants .bkg-img-enchanted {
-  background-image: url(../images/restaurants/theEnchantedPlate.jpg);
+  background-image: url(images/restaurants/theEnchantedPlate.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
@@ -192,7 +192,7 @@
   background-position-y: 60%;
 }
 #index main #restaurants .bkg-img-bastille {
-  background-image: url(../images/restaurants/bastille.jpg);
+  background-image: url(images/restaurants/bastille.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
@@ -204,7 +204,7 @@
   background-position: bottom;
 }
 #index main #restaurants .bkg-img-gourmand {
-  background-image: url(../images/restaurants/leGourmand.jpg);
+  background-image: url(images/restaurants/leGourmand.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
@@ -283,7 +283,7 @@
   font-family: "Shrikhand";
 }
 #body-fullpalette main .img-bkg-fullpalette {
-  background-image: url(../images/restaurants/theFullPalette.jpg);
+  background-image: url(images/restaurants/theFullPalette.jpg);
   width: 100%;
   height: 240px;
   background-size: cover;
@@ -444,7 +444,7 @@
   font-family: "Shrikhand";
 }
 #body-enchanted main .img-bkg-enchanted {
-  background-image: url(../images/restaurants/theEnchantedPlate.jpg);
+  background-image: url(images/restaurants/theEnchantedPlate.jpg);
   width: 100%;
   height: 240px;
   background-size: cover;
@@ -606,7 +606,7 @@
   font-family: "Shrikhand";
 }
 #body-bastille main .img-bkg-bastille {
-  background-image: url(../images/restaurants/bastille.jpg);
+  background-image: url(images/restaurants/bastille.jpg);
   width: 100%;
   height: 240px;
   background-size: cover;
@@ -773,7 +773,7 @@
   font-family: "Shrikhand";
 }
 #body-gourmand main .img-bkg-gourmand {
-  background-image: url(../images/restaurants/leGourmand.jpg);
+  background-image: url(images/restaurants/leGourmand.jpg);
   width: 100%;
   height: 240px;
   background-size: cover;

@@ -207,16 +207,16 @@ $tert-color: #99e2d0;
         @include bkg-img;
       }
       .bkg-img-enchanted {
-        background-image: url(../images/restaurants/theEnchantedPlate.jpg);
+        background-image: url(images/restaurants/theEnchantedPlate.jpg);
         @include bkg-img;
         background-position-y: 60%;
       }
       .bkg-img-bastille {
-        background-image: url(../images/restaurants/bastille.jpg);
+        background-image: url(images/restaurants/bastille.jpg);
         @include bkg-img;
       }
       .bkg-img-gourmand {
-        background-image: url(../images/restaurants/leGourmand.jpg);
+        background-image: url(images/restaurants/leGourmand.jpg);
         @include bkg-img;
       }
       .new {
@@ -291,7 +291,7 @@ $tert-color: #99e2d0;
   }
   main {
     .img-bkg-fullpalette {
-      background-image: url(../images/restaurants/theFullPalette.jpg);
+      background-image: url(images/restaurants/theFullPalette.jpg);
       @include bkg-img-menu;
       background-position-y: bottom;
     }
@@ -462,7 +462,7 @@ $tert-color: #99e2d0;
   }
   main {
     .img-bkg-enchanted {
-      background-image: url(../images/restaurants/theEnchantedPlate.jpg);
+      background-image: url(images/restaurants/theEnchantedPlate.jpg);
       @include bkg-img-menu;
       background-position-y: 75%;
     }
@@ -634,7 +634,7 @@ $tert-color: #99e2d0;
   }
   main {
     .img-bkg-bastille {
-      background-image: url(../images/restaurants/bastille.jpg);
+      background-image: url(images/restaurants/bastille.jpg);
       @include bkg-img-menu;
     }
   }
@@ -810,7 +810,7 @@ $tert-color: #99e2d0;
   }
   main {
     .img-bkg-gourmand {
-      background-image: url(../images/restaurants/leGourmand.jpg);
+      background-image: url(images/restaurants/leGourmand.jpg);
       @include bkg-img-menu;
       background-position: bottom;
     }

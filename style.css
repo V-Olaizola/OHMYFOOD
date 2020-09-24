@@ -966,7 +966,7 @@ footer a {
   html {
     max-width: 768px;
     margin: auto;
-    background-image: url(images/bkg-3.png);
+    background-image: url(images/bkg.png);
     background-size: 100%;
   }
 }

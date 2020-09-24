@@ -167,7 +167,7 @@
   padding-bottom: 20px;
 }
 #index main #restaurants .bkg-img-fullpalette {
-  background-image: url(../images/restaurants/theFullPalette.jpg);
+  background-image: url(images/restaurants/theFullPalette.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
@@ -358,7 +358,6 @@
 #body-fullpalette .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
 }
 #body-fullpalette .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
@@ -522,7 +521,6 @@
 #body-enchanted .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
 }
 #body-enchanted .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
@@ -691,7 +689,6 @@
 #body-bastille .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
 }
 #body-bastille .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
@@ -854,7 +851,6 @@
 #body-gourmand .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
 }
 #body-gourmand .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;

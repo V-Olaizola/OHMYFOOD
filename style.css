@@ -354,12 +354,11 @@
   padding: 0 0 0 10px;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
 }
 #body-fullpalette .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: wrap;
 }
 #body-fullpalette .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
@@ -470,7 +469,7 @@
   border-top-right-radius: 60px;
 }
 #body-enchanted .menu .head h2 {
-  font-size: 0.5;
+  font-size: 1.4em;
   padding: 50px 0 10px;
   font-family: "Shrikhand";
   font-weight: lighter;
@@ -524,7 +523,7 @@
 #body-enchanted .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: wrap;
 }
 #body-enchanted .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
@@ -694,7 +693,7 @@
 #body-bastille .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: wrap;
 }
 #body-bastille .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
@@ -858,7 +857,7 @@
 #body-gourmand .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: wrap;
 }
 #body-gourmand .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;

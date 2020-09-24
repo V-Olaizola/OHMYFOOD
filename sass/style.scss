@@ -361,12 +361,11 @@ $tert-color: #99e2d0;
         padding: 0 0 0 10px;
         text-overflow: ellipsis;
         overflow: hidden;
-        white-space: wrap;
 
         h3 {
           text-overflow: ellipsis;
           overflow: hidden;
-          white-space: nowrap;
+          white-space: wrap;
         }
         p {
           text-overflow: ellipsis;
@@ -487,7 +486,7 @@ $tert-color: #99e2d0;
       border-top-left-radius: 60px;
       border-top-right-radius: 60px;
       h2 {
-        font-size: 0.5;
+        font-size: 1.4em;
         padding: 50px 0 10px;
         font-family: "Shrikhand";
         font-weight: lighter;
@@ -542,7 +541,7 @@ $tert-color: #99e2d0;
         h3 {
           text-overflow: ellipsis;
           overflow: hidden;
-          white-space: nowrap;
+          white-space: wrap;
         }
         p {
           text-overflow: ellipsis;
@@ -722,7 +721,7 @@ $tert-color: #99e2d0;
         h3 {
           text-overflow: ellipsis;
           overflow: hidden;
-          white-space: nowrap;
+          white-space: wrap;
         }
         p {
           text-overflow: ellipsis;
@@ -897,7 +896,7 @@ $tert-color: #99e2d0;
         h3 {
           text-overflow: ellipsis;
           overflow: hidden;
-          white-space: nowrap;
+          white-space: wrap;
         }
         p {
           text-overflow: ellipsis;

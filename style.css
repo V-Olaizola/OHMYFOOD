@@ -362,7 +362,6 @@
 #body-fullpalette .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
   color: grey;
   margin-top: 2px;
 }
@@ -525,7 +524,6 @@
 #body-enchanted .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
   color: grey;
   margin-top: 2px;
 }
@@ -693,7 +691,6 @@
 #body-bastille .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
   color: grey;
   margin-top: 2px;
 }
@@ -855,7 +852,6 @@
 #body-gourmand .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: wrap;
   color: grey;
   margin-top: 2px;
 }

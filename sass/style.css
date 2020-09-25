@@ -8,6 +8,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("fonts/Roboto-Regular.ttf") format("truetype");
@@ -15,6 +16,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("fonts/Roboto-Light.ttf") format("truetype");
@@ -22,6 +24,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("fonts/Roboto-Thin.ttf") format("truetype");
@@ -29,6 +32,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Shrikhand";
   src: url("fonts/Shrikhand-Regular.ttf") format("truetype");
@@ -36,11 +40,13 @@
   font-style: italic;
   font-display: swap;
 }
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*  HOMEPAGE */
@@ -49,64 +55,98 @@
   background-color: #efefef;
   font-family: "roboto";
 }
+
 #index .container {
   position: absolute;
   left: 0;
   width: 100%;
   height: 2150px;
   background-color: white;
-  animation: hide 1s linear 2s 1 forwards;
+  -webkit-animation: hide 1s linear 2s 1 forwards;
+          animation: hide 1s linear 2s 1 forwards;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #index .loading {
   border: 6px solid #9356dc;
   width: 60px;
   height: 60px;
   border-top-color: #ff79da;
   border-left-color: #99e2d0;
-  animation: spin 1s 2 ease-in-out;
+  -webkit-animation: spin 1s 2 ease-in-out;
+          animation: spin 1s 2 ease-in-out;
   margin-top: 200px;
 }
+
 #index header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
   height: 60px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #index header h1 {
   font-family: "Shrikhand";
   font-weight: lighter;
 }
+
 #index main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 #index main .lieu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 20px 0;
 }
+
 #index main .lieu p {
   margin: 0 20px;
 }
+
 #index main .intro {
   background-color: #f5f5f5;
   text-align: center;
   padding: 0 20px;
 }
+
 #index main .intro h2 {
   margin: 0;
   padding: 50px 0 30px 0;
 }
+
 #index main .intro p {
   color: gray;
   font-size: 1.1em;
 }
+
 #index main .intro button {
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
   cursor: pointer;
   color: white;
   border-radius: 30px;
@@ -114,40 +154,57 @@
   padding: 20px;
   border: none;
   background-color: #ff79da;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 86, 220, 0)), to(rgba(147, 86, 220, 0.8)));
   background-image: linear-gradient(180deg, rgba(147, 86, 220, 0), rgba(147, 86, 220, 0.8));
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 #index main .intro button:hover {
   opacity: 0.9;
-  box-shadow: 0px 3px 8px grey;
+  -webkit-box-shadow: 0px 3px 8px grey;
+          box-shadow: 0px 3px 8px grey;
 }
+
 #index main .ccm-bkg {
   background-color: white;
 }
+
 #index main .ccm-bkg .ccm {
   width: 90%;
   background-color: white;
   margin: auto;
   padding: 60px 0;
 }
+
 #index main .ccm-bkg .ccm ol {
   counter-reset: list;
   list-style: none;
 }
+
 #index main .ccm-bkg .ccm ol li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 30px auto 0;
   width: 100%;
   height: 60px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
   border-radius: 20px;
   background-color: #f5f5f5;
 }
+
 #index main .ccm-bkg .ccm ol li i {
   margin-right: 20px;
 }
+
 #index main .ccm-bkg .ccm ol li::before {
   font-size: 0.7em;
   background: #9356dc;
@@ -161,63 +218,86 @@
   line-height: 30px;
   text-align: center;
 }
+
 #index main #restaurants {
   width: 90%;
   padding: 30px 0;
   margin: auto;
 }
+
 #index main #restaurants h2 {
   padding-bottom: 20px;
 }
+
 #index main #restaurants .bkg-img-fullpalette {
   background-image: url(images/restaurants/theFullPalette.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 #index main #restaurants .bkg-img-enchanted {
   background-image: url(images/restaurants/theEnchantedPlate.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-y: 60%;
 }
+
 #index main #restaurants .bkg-img-bastille {
   background-image: url(images/restaurants/bastille.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 #index main #restaurants .bkg-img-gourmand {
   background-image: url(images/restaurants/leGourmand.jpg);
   width: 100%;
   height: 160px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 #index main #restaurants .new {
   right: 0;
   width: 85px;
@@ -226,10 +306,17 @@
   margin: 20px;
   background-color: #99e2d0;
   color: #3d917c;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #index main #restaurants .bas-article {
   margin: 0 0 20px;
   background-color: white;
@@ -237,26 +324,41 @@
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   padding: 15px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #index main #restaurants .bas-article .nom-coeur {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 #index main #restaurants .bas-article .nom-coeur .nom > p {
   color: grey;
 }
+
 #index main #restaurants .bas-article .nom-coeur .coeur {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #index main #restaurants .bas-article i {
   cursor: pointer;
   font-size: 1.1em;
   -webkit-text-stroke: 1px black;
   color: transparent;
+  -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
+
 #index main #restaurants .bas-article i:hover {
   color: #9356dc;
   -webkit-text-stroke: #9356dc;
@@ -267,24 +369,35 @@
   background-color: #efefef;
   font-family: "roboto";
 }
+
 #body-fullpalette header {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
   height: 60px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-fullpalette header a {
   position: absolute;
   left: 20px;
   top: 20px;
   color: currentColor;
 }
+
 #body-fullpalette header h1 {
   font-family: "Shrikhand";
 }
+
 #body-fullpalette main .img-bkg-fullpalette {
   background-image: url(images/restaurants/theFullPalette.jpg);
   width: 100%;
@@ -293,6 +406,7 @@
   background-repeat: no-repeat;
   background-position-y: bottom;
 }
+
 #body-fullpalette .menu {
   padding: 0 20px;
   width: 100%;
@@ -300,35 +414,46 @@
   border-top-right-radius: 30px;
   background-color: #f5f5f5;
 }
+
 #body-fullpalette .menu .head {
   width: 100%;
   margin: -50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
 }
+
 #body-fullpalette .menu .head h2 {
   padding: 50px 0 10px;
   font-family: "Shrikhand";
   font-weight: lighter;
 }
+
 #body-fullpalette .menu .head i {
   padding: 50px 0 20px;
   font-size: 1.1em;
   -webkit-text-stroke: 1px black;
   color: transparent;
+  -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
+
 #body-fullpalette .menu .head i:hover {
   color: #9356dc;
   -webkit-text-stroke: #9356dc;
 }
+
 #body-fullpalette .menu .titre-section {
   font-weight: lighter;
   padding: 20px 0 10px;
   text-transform: uppercase;
 }
+
 #body-fullpalette .menu .titre-section.titre-section::after {
   content: "";
   display: block;
@@ -337,77 +462,113 @@
   margin-top: 5px;
   background: #99e2d0;
 }
+
 #body-fullpalette .menu .block-dish {
   font-size: 0.8em;
   position: relative;
   width: 100%;
   height: 70px;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-fullpalette .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-fullpalette .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-fullpalette .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
   color: grey;
   margin-top: 2px;
 }
+
 #body-fullpalette .menu .block-dish > p {
   width: 30%;
   padding-top: 15px;
   text-align: center;
 }
+
 #body-fullpalette .menu .block-dish .check {
   margin-right: -150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #99e2d0;
   height: 100%;
   width: 20%;
   color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-fullpalette .menu .block-dish .check > i {
   font-size: 1.5em;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
+
 #body-fullpalette .menu .block-dish:hover .plat-et-desc {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
+
 #body-fullpalette .menu .block-dish:hover .check {
   margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-fullpalette .menu .block-dish:hover i {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
+
 #body-fullpalette .menu .btn-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #body-fullpalette .menu button {
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
   cursor: pointer;
   color: white;
   border-radius: 30px;
@@ -415,12 +576,16 @@
   margin: 15px 0 40px;
   border: none;
   background-color: #ff79da;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 86, 220, 0)), to(rgba(147, 86, 220, 0.8)));
   background-image: linear-gradient(180deg, rgba(147, 86, 220, 0), rgba(147, 86, 220, 0.8));
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 #body-fullpalette .menu button:hover {
   opacity: 0.9;
-  box-shadow: 0px 3px 8px grey;
+  -webkit-box-shadow: 0px 3px 8px grey;
+          box-shadow: 0px 3px 8px grey;
 }
 
 /*  PAGE MENU ENCHANTED PLATE  */
@@ -428,24 +593,35 @@
   background-color: #efefef;
   font-family: "roboto";
 }
+
 #body-enchanted header {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
   height: 60px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-enchanted header a {
   position: absolute;
   left: 20px;
   top: 20px;
   color: currentColor;
 }
+
 #body-enchanted header h1 {
   font-family: "Shrikhand";
 }
+
 #body-enchanted main .img-bkg-enchanted {
   background-image: url(images/restaurants/theEnchantedPlate.jpg);
   width: 100%;
@@ -454,6 +630,7 @@
   background-repeat: no-repeat;
   background-position-y: 75%;
 }
+
 #body-enchanted .menu {
   padding: 0 20px;
   width: 100%;
@@ -461,36 +638,47 @@
   border-top-right-radius: 30px;
   background-color: #f5f5f5;
 }
+
 #body-enchanted .menu .head {
   width: 100%;
   margin: -50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
 }
+
 #body-enchanted .menu .head h2 {
   font-size: 1.4em;
   padding: 50px 0 10px;
   font-family: "Shrikhand";
   font-weight: lighter;
 }
+
 #body-enchanted .menu .head i {
   padding: 50px 0 20px;
   font-size: 1.1em;
   -webkit-text-stroke: 1px black;
   color: transparent;
+  -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
+
 #body-enchanted .menu .head i:hover {
   color: #9356dc;
   -webkit-text-stroke: #9356dc;
 }
+
 #body-enchanted .menu .titre-section {
   font-weight: lighter;
   padding: 20px 0 10px;
   text-transform: uppercase;
 }
+
 #body-enchanted .menu .titre-section.titre-section::after {
   content: "";
   display: block;
@@ -499,77 +687,113 @@
   margin-top: 5px;
   background: #99e2d0;
 }
+
 #body-enchanted .menu .block-dish {
   font-size: 0.8em;
   position: relative;
   width: 100%;
   height: 70px;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-enchanted .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-enchanted .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-enchanted .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
   color: grey;
   margin-top: 2px;
 }
+
 #body-enchanted .menu .block-dish > p {
   width: 30%;
   padding-top: 15px;
   text-align: center;
 }
+
 #body-enchanted .menu .block-dish .check {
   margin-right: -150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #99e2d0;
   height: 100%;
   width: 20%;
   color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-enchanted .menu .block-dish .check > i {
   font-size: 1.5em;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
+
 #body-enchanted .menu .block-dish:hover .plat-et-desc {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
+
 #body-enchanted .menu .block-dish:hover .check {
   margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-enchanted .menu .block-dish:hover i {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
+
 #body-enchanted .menu .btn-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #body-enchanted .menu button {
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
   cursor: pointer;
   color: white;
   border-radius: 30px;
@@ -577,12 +801,16 @@
   margin: 15px 0 40px;
   border: none;
   background-color: #ff79da;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 86, 220, 0)), to(rgba(147, 86, 220, 0.8)));
   background-image: linear-gradient(180deg, rgba(147, 86, 220, 0), rgba(147, 86, 220, 0.8));
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 #body-enchanted .menu button:hover {
   opacity: 0.9;
-  box-shadow: 0px 3px 8px grey;
+  -webkit-box-shadow: 0px 3px 8px grey;
+          box-shadow: 0px 3px 8px grey;
 }
 
 /*  PAGE MENU BASTILLE  */
@@ -590,24 +818,35 @@
   background-color: #efefef;
   font-family: "roboto";
 }
+
 #body-bastille header {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
   height: 60px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-bastille header a {
   position: absolute;
   left: 20px;
   top: 20px;
   color: currentColor;
 }
+
 #body-bastille header h1 {
   font-family: "Shrikhand";
 }
+
 #body-bastille main .img-bkg-bastille {
   background-image: url(images/restaurants/bastille.jpg);
   width: 100%;
@@ -615,13 +854,16 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #body-bastille .img-resto {
   width: 100%;
 }
+
 #body-bastille .img-resto img {
   width: 100%;
   height: 300px;
 }
+
 #body-bastille .menu {
   padding: 0 20px;
   width: 100%;
@@ -629,35 +871,46 @@
   border-top-right-radius: 30px;
   background-color: #f5f5f5;
 }
+
 #body-bastille .menu .head {
   width: 100%;
   margin: -50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
 }
+
 #body-bastille .menu .head h2 {
   padding: 50px 0 10px;
   font-family: "Shrikhand";
   font-weight: lighter;
 }
+
 #body-bastille .menu .head i {
   padding: 50px 0 20px;
   font-size: 1.1em;
   -webkit-text-stroke: 1px black;
   color: transparent;
+  -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
+
 #body-bastille .menu .head i:hover {
   color: #9356dc;
   -webkit-text-stroke: #9356dc;
 }
+
 #body-bastille .menu .titre-section {
   font-weight: lighter;
   padding: 20px 0 10px;
   text-transform: uppercase;
 }
+
 #body-bastille .menu .titre-section.titre-section::after {
   content: "";
   display: block;
@@ -666,77 +919,113 @@
   margin-top: 5px;
   background: #99e2d0;
 }
+
 #body-bastille .menu .block-dish {
   font-size: 0.8em;
   position: relative;
   width: 100%;
   height: 70px;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-bastille .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-bastille .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-bastille .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
   color: grey;
   margin-top: 2px;
 }
+
 #body-bastille .menu .block-dish > p {
   width: 30%;
   padding-top: 15px;
   text-align: center;
 }
+
 #body-bastille .menu .block-dish .check {
   margin-right: -150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #99e2d0;
   height: 100%;
   width: 20%;
   color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-bastille .menu .block-dish .check > i {
   font-size: 1.5em;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
+
 #body-bastille .menu .block-dish:hover .plat-et-desc {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
+
 #body-bastille .menu .block-dish:hover .check {
   margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-bastille .menu .block-dish:hover i {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
+
 #body-bastille .menu .btn-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #body-bastille .menu button {
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
   cursor: pointer;
   color: white;
   border-radius: 30px;
@@ -744,12 +1033,16 @@
   margin: 15px 0 40px;
   border: none;
   background-color: #ff79da;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 86, 220, 0)), to(rgba(147, 86, 220, 0.8)));
   background-image: linear-gradient(180deg, rgba(147, 86, 220, 0), rgba(147, 86, 220, 0.8));
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 #body-bastille .menu button:hover {
   opacity: 0.9;
-  box-shadow: 0px 3px 8px grey;
+  -webkit-box-shadow: 0px 3px 8px grey;
+          box-shadow: 0px 3px 8px grey;
 }
 
 /*  PAGE MENU LE GOURMAND  */
@@ -757,24 +1050,35 @@
   background-color: #efefef;
   font-family: "roboto";
 }
+
 #body-gourmand header {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
   height: 60px;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-gourmand header a {
   position: absolute;
   left: 20px;
   top: 20px;
   color: currentColor;
 }
+
 #body-gourmand header h1 {
   font-family: "Shrikhand";
 }
+
 #body-gourmand main .img-bkg-gourmand {
   background-image: url(images/restaurants/leGourmand.jpg);
   width: 100%;
@@ -783,6 +1087,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 #body-gourmand .menu {
   padding: 0 20px;
   width: 100%;
@@ -790,35 +1095,46 @@
   border-top-right-radius: 30px;
   background-color: #f5f5f5;
 }
+
 #body-gourmand .menu .head {
   width: 100%;
   margin: -50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
 }
+
 #body-gourmand .menu .head h2 {
   padding: 50px 0 10px;
   font-family: "Shrikhand";
   font-weight: lighter;
 }
+
 #body-gourmand .menu .head i {
   padding: 50px 0 20px;
   font-size: 1.1em;
   -webkit-text-stroke: 1px black;
   color: transparent;
+  -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
+
 #body-gourmand .menu .head i:hover {
   color: #9356dc;
   -webkit-text-stroke: #9356dc;
 }
+
 #body-gourmand .menu .titre-section {
   font-weight: lighter;
   padding: 20px 0 10px;
   text-transform: uppercase;
 }
+
 #body-gourmand .menu .titre-section.titre-section::after {
   content: "";
   display: block;
@@ -827,77 +1143,113 @@
   margin-top: 5px;
   background: #99e2d0;
 }
+
 #body-gourmand .menu .block-dish {
   font-size: 0.8em;
   position: relative;
   width: 100%;
   height: 70px;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   overflow: hidden;
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
 }
+
 #body-gourmand .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-gourmand .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 #body-gourmand .menu .block-dish .plat-et-desc p {
   text-overflow: ellipsis;
   overflow: hidden;
   color: grey;
   margin-top: 2px;
 }
+
 #body-gourmand .menu .block-dish > p {
   width: 30%;
   padding-top: 15px;
   text-align: center;
 }
+
 #body-gourmand .menu .block-dish .check {
   margin-right: -150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #99e2d0;
   height: 100%;
   width: 20%;
   color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-gourmand .menu .block-dish .check > i {
   font-size: 1.5em;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
+
 #body-gourmand .menu .block-dish:hover .plat-et-desc {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
+
 #body-gourmand .menu .block-dish:hover .check {
   margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #body-gourmand .menu .block-dish:hover i {
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
+
 #body-gourmand .menu .btn-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #body-gourmand .menu button {
-  box-shadow: 0px 3px 8px #d3d0d0;
+  -webkit-box-shadow: 0px 3px 8px #d3d0d0;
+          box-shadow: 0px 3px 8px #d3d0d0;
   cursor: pointer;
   color: white;
   border-radius: 30px;
@@ -905,12 +1257,16 @@
   margin: 15px 0 40px;
   border: none;
   background-color: #ff79da;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 86, 220, 0)), to(rgba(147, 86, 220, 0.8)));
   background-image: linear-gradient(180deg, rgba(147, 86, 220, 0), rgba(147, 86, 220, 0.8));
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
 #body-gourmand .menu button:hover {
   opacity: 0.9;
-  box-shadow: 0px 3px 8px grey;
+  -webkit-box-shadow: 0px 3px 8px grey;
+          box-shadow: 0px 3px 8px grey;
 }
 
 /* FOOTER */
@@ -919,25 +1275,43 @@ footer {
   color: white;
   padding: 30px 20px 20px 20px;
 }
+
 footer ul {
   margin: 30px 0;
 }
+
 footer li {
   list-style: none;
   padding: 0;
   margin-bottom: 10px;
 }
+
 footer li i {
   width: 3%;
 }
+
 footer li span {
   padding: 10px;
 }
+
 footer h3 {
   font-family: "Shrikhand";
 }
+
 footer a {
   color: white;
+}
+
+@-webkit-keyframes fondu {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fondu {
@@ -951,20 +1325,43 @@ footer a {
     opacity: 1;
   }
 }
+
+@-webkit-keyframes hide {
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
 @keyframes hide {
   to {
     opacity: 0;
     z-index: -1;
   }
 }
-@keyframes spin {
+
+@-webkit-keyframes spin {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
-    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
   }
 }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   html {
     max-width: 768px;
@@ -973,5 +1370,4 @@ footer a {
     background-size: 100%;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

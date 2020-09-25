@@ -357,7 +357,6 @@ $box-shadow-hover: 0px 3px 8px grey;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: $bg-color2;
-
     .head {
       width: 100%;
       margin: -50px 0 0;
@@ -396,6 +395,8 @@ $box-shadow-hover: 0px 3px 8px grey;
       }
     }
     .block-dish {
+      animation: fondu 3s linear;
+
       @include block-dish;
       box-shadow: $box-shadow;
       .plat-et-desc {
@@ -534,6 +535,8 @@ $box-shadow-hover: 0px 3px 8px grey;
       }
     }
     .block-dish {
+      animation: fondu 3s linear;
+
       @include block-dish;
       box-shadow: $box-shadow;
 
@@ -677,6 +680,8 @@ $box-shadow-hover: 0px 3px 8px grey;
       }
     }
     .block-dish {
+      animation: fondu 3s linear;
+
       @include block-dish;
       box-shadow: $box-shadow;
 
@@ -815,6 +820,8 @@ $box-shadow-hover: 0px 3px 8px grey;
       }
     }
     .block-dish {
+      animation: fondu 3s linear;
+
       @include block-dish;
       box-shadow: $box-shadow;
 

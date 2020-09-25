@@ -464,6 +464,8 @@
 }
 
 #body-fullpalette .menu .block-dish {
+  -webkit-animation: fondu 3s linear;
+          animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;
@@ -689,6 +691,8 @@
 }
 
 #body-enchanted .menu .block-dish {
+  -webkit-animation: fondu 3s linear;
+          animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;
@@ -921,6 +925,8 @@
 }
 
 #body-bastille .menu .block-dish {
+  -webkit-animation: fondu 3s linear;
+          animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;
@@ -1145,6 +1151,8 @@
 }
 
 #body-gourmand .menu .block-dish {
+  -webkit-animation: fondu 3s linear;
+          animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;

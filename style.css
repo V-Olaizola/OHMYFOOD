@@ -338,6 +338,7 @@
   background: #99e2d0;
 }
 #body-fullpalette .menu .block-dish {
+  animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;
@@ -500,6 +501,7 @@
   background: #99e2d0;
 }
 #body-enchanted .menu .block-dish {
+  animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;
@@ -667,6 +669,7 @@
   background: #99e2d0;
 }
 #body-bastille .menu .block-dish {
+  animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;
@@ -828,6 +831,7 @@
   background: #99e2d0;
 }
 #body-gourmand .menu .block-dish {
+  animation: fondu 3s linear;
   font-size: 0.8em;
   position: relative;
   width: 100%;

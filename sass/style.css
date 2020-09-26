@@ -424,8 +424,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
 }
 
 #body-fullpalette .menu .head h2 {
@@ -650,8 +648,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
 }
 
 #body-enchanted .menu .head h2 {
@@ -885,8 +881,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
 }
 
 #body-bastille .menu .head h2 {
@@ -1111,8 +1105,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
 }
 
 #body-gourmand .menu .head h2 {

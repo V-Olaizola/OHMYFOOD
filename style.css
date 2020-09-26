@@ -354,8 +354,6 @@
 #body-fullpalette .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 #body-fullpalette .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
@@ -515,8 +513,6 @@
 #body-enchanted .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 #body-enchanted .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
@@ -681,8 +677,6 @@
 #body-bastille .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 #body-bastille .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
@@ -841,8 +835,6 @@
 #body-gourmand .menu .block-dish .plat-et-desc {
   width: 75%;
   padding: 0 0 0 10px;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 #body-gourmand .menu .block-dish .plat-et-desc h3 {
   text-overflow: ellipsis;
